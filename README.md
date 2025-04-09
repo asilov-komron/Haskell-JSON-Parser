@@ -18,6 +18,7 @@ A simple JSON parser written in **Haskell** using the **Parsec** library. This p
 2. Install "Parsec" and Compile the source file:
    
    cabal install parsec
+   
    ghc JsonParser.hs
 
 3. Execute the compiled file:
