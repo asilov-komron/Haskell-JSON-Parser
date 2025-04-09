@@ -15,14 +15,10 @@ A simple JSON parser written in **Haskell** using the **Parsec** library. This p
    
    git clone https://github.com/asilov-komron/Haskell-JSON-Parser.git
    
-2. Change to the project directory:
-    
-   cd json-parser
-
-3. Compile the source file:
-
+2. Install "Parsec" and Compile the source file:
+   cabal install parsec
    ghc JsonParser.hs
 
-4. Execute the compiled file:
+3. Execute the compiled file:
 
    ./JsonParser
